@@ -15,13 +15,18 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="WebSharper" Version="6.1.1.252" />
-    <PackageReference Include="WebSharper.Charting" Version="6.1.0.249" />
-    <PackageReference Include="WebSharper.ChartJs" Version="6.1.0.249" />
-    <PackageReference Include="WebSharper.Forms" Version="6.1.0.249" />    
-    <PackageReference Include="WebSharper.FSharp" Version="6.1.1.252" />
-    <PackageReference Include="WebSharper.UI" Version="6.1.0.249" />
-    <PackageReference Include="WebSharper.AspNetCore" Version="6.1.1.252" />
+    <PackageReference Include="WebSharper" Version="6.1.5.317" />
+    <PackageReference Include="WebSharper.Charting" Version="6.1.1.269" />
+    <PackageReference Include="WebSharper.ChartJs" Version="6.1.1.269" />
+    <PackageReference Include="WebSharper.Forms" Version="6.1.1.269" />    
+    <PackageReference Include="WebSharper.FSharp" Version="6.1.5.317" />    
+    <PackageReference Include="WebSharper.MathJS" Version="6.1.5.317" />
+    <PackageReference Include="WebSharper.UI" Version="6.1.4.317" />
+    <PackageReference Include="WebSharper.AspNetCore" Version="6.1.5.317" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="7.0.400" />
   </ItemGroup>
 
 </Project>
